@@ -6,11 +6,11 @@ It's a fork of [StandardJS](https://standardjs.com).
 
 ## Differences from StandardJS
 
-This configuration extends StandardJS.
+This configuration extends StandardJS, and diverges from it in the following aspects:
 
 * [semi](https://eslint.org/docs/rules/semi#always): Semicolons always, but no [extra semicolons](https://eslint.org/docs/rules/no-extra-semi).
 
-* [quptes](https://eslint.org/docs/rules/quotes#double): Double quotes.
+* [quotes](https://eslint.org/docs/rules/quotes#double): Double quotes.
 
 * [curly](https://eslint.org/docs/rules/curly#all): Always use curly braces after `if`, `while`, `for`...
 
