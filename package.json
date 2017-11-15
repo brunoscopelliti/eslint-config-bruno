@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-bruno",
   "description": "An ESLint Shareable Config that makes me happy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bruno Scopelliti",
     "email": "me@brunoscopelliti.com",
@@ -12,12 +12,14 @@
   },
   "devDependencies": {
     "eslint": "^3.19.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.0",
-    "tape": "^4.6.3"
+    "eslint-plugin-standard": "^3.0.0"
   },
   "homepage": "https://github.com/brunoscopelliti/eslint-config-bruno",
   "keywords": [
