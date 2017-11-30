@@ -5,6 +5,7 @@
     "semi": [2, "always"],
     "no-extra-semi": 2,
     "quotes": [2, "double"],
-    "curly": [2, "all"]
+    "curly": [2, "all"],
+    "eqeqeq": ["error", "smart"]
   }
 }
