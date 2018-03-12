@@ -29,3 +29,15 @@ test("api: lintText [eqeqeq]", function (t) {
   var result = linter.executeOnText("var a = 42; if (typeof a == \"number\") { console.log(\"OK!\"); }\n");
   t.equals(result.results[0].messages.length, 0);
 });
+
+test("api: lintText [comma-dangle]", function (t) {
+  t.plan(1);
+  var result = linter.executeOnText("var foo = { a: 1 }; delete foo.a;\n");
+  t.equals(result.results[0].messages.length, 0);
+});
+
+test("api: lintText [comma-dangle] / 2", function (t) {
+  t.plan(1);
+  var result = linter.executeOnText("var foo = {\n  a: 1,\n  b: 2\n}; delete foo.a;\n");
+  t.equals(result.results[0].messages[0].message, "Missing trailing comma.");
+});

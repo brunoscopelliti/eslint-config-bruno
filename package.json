@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-bruno",
   "description": "An ESLint Shareable Config that makes me happy",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": {
     "name": "Bruno Scopelliti",
     "email": "me@brunoscopelliti.com",

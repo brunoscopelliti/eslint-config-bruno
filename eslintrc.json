@@ -2,10 +2,17 @@
   "extends": "standard",
 
   "rules": {
-    "semi": [2, "always"],
-    "no-extra-semi": 2,
-    "quotes": [2, "double"],
-    "curly": [2, "all"],
-    "eqeqeq": ["error", "smart"]
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+    "curly": ["error", "all"],
+    "eqeqeq": ["error", "smart"],
+    "no-extra-semi": "error",
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"]
   }
 }

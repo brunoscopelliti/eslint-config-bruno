@@ -14,6 +14,8 @@ This configuration extends StandardJS, and diverges from it in the following asp
 
 * [curly](https://eslint.org/docs/rules/curly#all): Always use curly braces after `if`, `while`, `for`...
 
+* [comma-dangle](https://eslint.org/docs/rules/comma-dangle#always-multiline): Always for multiline.
+
 ## Install
 
 ```bash
