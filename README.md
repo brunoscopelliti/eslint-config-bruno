@@ -16,6 +16,8 @@ This configuration extends StandardJS, and diverges from it in the following asp
 
 * [comma-dangle](https://eslint.org/docs/rules/comma-dangle#always-multiline): Always for multiline.
 
+* [eqeqeq](https://eslint.org/docs/rules/eqeqeq#smart): Enforce type-strict checks, excluding literal values, `typeof` and `null`.
+
 ## Install
 
 ```bash
